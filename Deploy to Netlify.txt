@@ -1,6 +1,6 @@
 0) Стоять в папке проекта.
 
-1) Сборка (образуется папка /build, которую нужно будет выкладывать на хост):
+1) Сборка (образуется папка /build, из которой запускается код на хосте):
  npm run build
 
 2) Для локального запуска продуктовой версии нужен пакет serve:
@@ -43,4 +43,5 @@
 12) https://app.netlify.com/teams/olegb2012/overview - управление имеющимися сайтами (в т.ч. создание
     новых Add new site/Import an existing project и выбирать GitHub).
 
-13) https://youthful-goldstine-bfc3fc.netlify.app - ссылка на приложение.
+13) https://youthful-goldstine-bfc3fc.netlify.app - ссылка на приложение (не работает, так как нужно
+настроить работу эмулятора сервера API с данными в файле db.json через пакет serve).
